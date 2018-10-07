@@ -1,0 +1,32 @@
+{
+  "name": "facebookoauth",
+  "version": "1.0.0",
+  "description": "Login to your app by using this very secure method and save any user info to mongoDB.",
+  "main": "index.js",
+  "engines": {
+    "node": "9.7.1",
+    "npm": "5.6.0"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghazanfar23/FacebookOauth_Node.js_Express_Passport_Mongoose.git"
+  },
+  "author": "Ghazanfar Ali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghazanfar23/FacebookOauth_Node.js_Express_Passport_Mongoose/issues"
+  },
+  "homepage": "https://github.com/ghazanfar23/FacebookOauth_Node.js_Express_Passport_Mongoose#readme",
+  "dependencies": {
+    "cookie-session": "^2.0.0-beta.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.3.2",
+    "nodemon": "^1.18.4",
+    "passport": "^0.4.0",
+    "passport-facebook": "^2.1.1"
+  }
+}
